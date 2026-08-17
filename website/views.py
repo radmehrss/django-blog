@@ -6,8 +6,7 @@ from website.forms import contact
 from website.forms import ContactForm,NewsLetterForm
 
 def index_view(request):
-    context = {'title':'پر طرفدار','content':'این پایینیا بدجور پر طرفدارن'}
-    return render(request,'website/index.html',context)
+    return render(request,'website/index.html')
 def about_view(request):
     return render(request,'website/about.html')
 
